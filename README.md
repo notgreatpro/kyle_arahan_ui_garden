@@ -82,12 +82,14 @@ docker stop lastname_firstname_coding_assignment12
 
 ## Start container
 To start your container, run this code:
-```bash docker start arahan_kyle_coding_assignment12
+```bash 
+docker start arahan_kyle_coding_assignment12
 ```
 
 ## Remove container
 To remove your container, run this code:
-```bash docker rm arahan_kyle_coding_assignment12
+```bash 
+docker rm arahan_kyle_coding_assignment12
 ```
 
 
