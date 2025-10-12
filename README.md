@@ -26,7 +26,7 @@ To get started setup this assignment, please follow the steps below:
 2. Enter your directory to your container
 ```bash
 cd LastName_FirdtName_coding_assignment12
-```s
+```
 
  (Note: Change LastName and First Name to your Name)
 3.  Enter your workdir ```cd lastName_firstName_ui_garden```
