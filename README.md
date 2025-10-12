@@ -25,25 +25,32 @@ To get started setup this assignment, please follow the steps below:
 1. Go to your **Command Prompt**
 2. Enter your directory to your container
 ```bash
-cd LastName_FirdtName_coding_assignment12
+cd LastName_FirstName_coding_assignment12
 ```
 
  (Note: Change LastName and First Name to your Name)
-3.  Enter your workdir ```cd lastName_firstName_ui_garden```
+3.  Enter your workdir 
+```bash
+cd lastName_firstName_ui_garden
+```
 
 ### Running on Docker in localhost
 Once you already have both container and workdir on your directory, you can begin run the docker to the localhost.
 
 1. Run this docker code to build your container
 
+```bash
 docker build -t lastname_firstname_coding_assignment12 .
+```
 
 
 You'll see docker will now build your container 
 
 2. After your docker has build your container, you can run your container
 
-``` docker run -d -p 8083:80 --name lastname_firstname_coding_assignment12 lastname_firstname_coding_assignment12```
+``` bash 
+docker run -d -p 8083:80 --name lastname_firstname_coding_assignment12 lastname_firstname_coding_assignment12
+```
 
 Note: You'll notice that after you run this code, you'll see this on your command prompt:
 
@@ -54,7 +61,9 @@ This means your docker is now running on your localhost.
 
 3. You can now open your broswer and input your localhost:
 
-```http://127.0.0.1:8083```
+```bash
+http://127.0.0.1:8083
+```
 
 (Note: If your localhost says: **Site cant be reached** it means your container cant run to your localhost due to reasons:
 - You didnt build/run your container
