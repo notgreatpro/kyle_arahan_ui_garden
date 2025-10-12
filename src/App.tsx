@@ -57,7 +57,7 @@ const App: React.FC = () => {
       <div style={{ marginBottom: "2rem" }}>
         <Label text="Hero Image Example:" />
         <HeroImage
-          src="https://placekitten.com/1200/400"
+          imageUrl="https://placekitten.com/1200/400"
           title="Welcome to the Component Library"
           subtitle="Reusable UI components built with React and TypeScript"
         />
