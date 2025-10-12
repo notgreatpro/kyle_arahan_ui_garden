@@ -56,7 +56,7 @@ Note: You'll notice that after you run this code, you'll see this on your comman
 
 ```63a4273e2fcf95e1c781a5316b0580a44df4b541801bdf8a03ea7728c7a6f8ec```
 
-This means your docker is now running on your localhost. 
+This means your docker is now running on your localhost. This will change every time you run your container
 (Warning: If you have an error, it means that your container already build and exist on your localhost. The solution is see the **Docker Commands** section below )
 
 3. You can now open your broswer and input your localhost:
@@ -70,3 +70,25 @@ http://127.0.0.1:8083
 - Make sure you have Docker Desktop active
 
 Make sure you double check in order your container to show up )
+
+## Docker Commands
+Heres the command you can help run/stop your container.
+
+### Stop container
+To stop your container, run this code to your command prompt:
+```bash
+docker stop lastname_firstname_coding_assignment12
+```
+
+## Start container
+To start your container, run this code:
+```bash docker start arahan_kyle_coding_assignment12
+```
+
+## Remove container
+To remove your container, run this code:
+```bash docker rm arahan_kyle_coding_assignment12
+```
+
+
+
