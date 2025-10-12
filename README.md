@@ -23,7 +23,12 @@ npm install
 ### Command Prompt
 To get started setup this assignment, please follow the steps below:
 1. Go to your **Command Prompt**
-2. Enter your directory to your container```cd LastName_FirdtName_coding_assignment12``` (Note: Change LastName and First Name to your Name)
+2. Enter your directory to your container
+```bash
+cd LastName_FirdtName_coding_assignment12
+```s
+
+ (Note: Change LastName and First Name to your Name)
 3.  Enter your workdir ```cd lastName_firstName_ui_garden```
 
 ### Running on Docker in localhost
