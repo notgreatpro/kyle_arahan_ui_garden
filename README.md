@@ -29,6 +29,7 @@ cd LastName_FirstName_coding_assignment12
 ```
 
  (Note: Change LastName and First Name to your Name)
+
 3.  Enter your workdir 
 ```bash
 cd lastName_firstName_ui_garden
