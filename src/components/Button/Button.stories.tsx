@@ -16,8 +16,8 @@ type Story = StoryObj<typeof Button>;
 
 export const Default: Story = {
   args: {
-    label: "Click Me",
-    backgroundColor: "#007bff",
+    label: "Yeet",
+    backgroundColor: "hsla(106, 100%, 50%, 1)",
   },
 };
 

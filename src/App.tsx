@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <h1>Component Library Demo</h1>
+      <h1>Assignment12 React Component</h1>
 
       {/* 🔹 Button Component */}
       <div style={{ marginBottom: "2rem" }}>
@@ -46,7 +46,7 @@ const App: React.FC = () => {
       <div style={{ marginBottom: "2rem" }}>
         <Label text="Image Example:" />
         <Image
-          src="https://placekitten.com/300/200"
+          src="reactjs.png"
           alt="Example"
           width="300px"
           height="200px"
