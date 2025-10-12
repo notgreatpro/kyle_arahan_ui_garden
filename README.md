@@ -80,13 +80,13 @@ To stop your container, run this code to your command prompt:
 docker stop lastname_firstname_coding_assignment12
 ```
 
-## Start container
+### Start container
 To start your container, run this code:
 ```bash 
 docker start arahan_kyle_coding_assignment12
 ```
 
-## Remove container
+### Remove container
 To remove your container, run this code:
 ```bash 
 docker rm arahan_kyle_coding_assignment12
