@@ -14,7 +14,7 @@ COPY . .
 # Build the React app
 RUN npm run build
 
-# 2️⃣ Use a lightweight server to serve the build
+#  Use a lightweight server to serve the build
 FROM node:18-alpine
 
 WORKDIR /app
