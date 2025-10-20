@@ -46,7 +46,7 @@ const App: React.FC = () => {
       <div style={{ marginBottom: "2rem" }}>
         <Label text="Image Example:" />
         <Image
-          src="reactjs.png"
+          src="toronto.jpg"
           alt="Example"
           width="300px"
           height="200px"

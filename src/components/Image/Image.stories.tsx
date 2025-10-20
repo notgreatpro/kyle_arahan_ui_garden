@@ -18,13 +18,13 @@ type Story = StoryObj<typeof Image>;
 
 export const Default: Story = {
   args: {
-    src: "https://placehold.co/300x200",
+    src: "toronto.jpg",
     alt: "Sample image",
   },
 };
 export const Rounded: Story = {
   args: {
-    src: "https://placehold.co/200x200",
+    src: "toronto.jpg",
     alt: "Rounded image",
     rounded: true,
   },

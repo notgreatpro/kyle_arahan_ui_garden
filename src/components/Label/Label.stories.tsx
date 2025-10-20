@@ -12,5 +12,8 @@ const meta: Meta<typeof Label> = {
 export default meta;
 type Story = StoryObj<typeof Label>;
 
-export const Default: Story = { args: { text: "Username" } };
+export const Default: Story = { args: {
+  text: "Username",
+  color: "#c02424"
+} };
 export const Disabled: Story = { args: { text: "Disabled Label", disabled: true } };

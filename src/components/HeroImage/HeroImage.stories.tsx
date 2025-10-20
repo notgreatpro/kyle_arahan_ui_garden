@@ -14,7 +14,7 @@ type Story = StoryObj<typeof HeroImage>;
 
 export const Default: Story = {
   args: {
-    imageUrl: "https://placekitten.com/1200/400",
+    imageUrl: "toronto.jpg",
     title: "Welcome to the Component Library",
     subtitle: "Reusable UI components built with React and Storybook",
   },
