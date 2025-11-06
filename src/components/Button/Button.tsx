@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ButtonProps  from './Button.types';
+import  ButtonProps  from './Button.types';
 
 const StyledButton = styled.button<{
   backgroundColor?: string;
